@@ -1,4 +1,4 @@
-# 安装依赖 pip3 install requests html5lib bs4 schedule
+    # 安装依赖 pip3 install requests html5lib bs4 schedule
 
 import time
 import requests
@@ -8,14 +8,14 @@ from bs4 import BeautifulSoup
 
 
 # 从测试号信息获取
-appID = ""
-appSecret = ""
+appID = "wx4ad3ba7e16ed754b"
+appSecret = "59b833186f34d0baaf67a911e48017cd"
 #收信人ID即 用户列表中的微信号，见上文
-openId = ""
+openId = "oS4sJ6PVjED643qQn2MkJMlSvU6M"
 # 天气预报模板ID
-weather_template_id = ""
+weather_template_id = "vBxEREabc5-4yqr_-dGtEcv8npXOfFBqGJ10paM4Bas"
 # 时间表模板ID
-timetable_template_id = ""
+timetable_template_id = "i8HMUOqZ_rbab0etfb9q9E1eP2Cuqb6qQ1GkaADPT5A"
 
 
 def get_weather(my_city):
